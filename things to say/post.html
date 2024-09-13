@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TᕼIᑎᘜՏTOՏᗩY</title>
+    <style>
+       body {
+            background-color: rgb(29, 27, 27);
+            color: rgb(116, 116, 116);
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+        }
+        .search-bar {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(116, 116, 116);
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #000000;
+        }
+        .posts {
+            margin-top: 30px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            width: 100%;
+        }
+        .post {
+            background-color: rgb(50, 50, 50);
+            border: 1px solid rgb(80, 80, 80);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 80%; 
+            max-width: 800px;
+            text-decoration: none; 
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .post-title {
+            font-size: 2.5em; 
+            margin-top: 0;
+        }
+        .post-content {
+            font-size: 1.5em; 
+            line-height: 1.5;
+        }
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(50, 50, 50);
+            border-top: 1px solid rgb(80, 80, 80);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .navbar a {
+            color: rgb(116, 116, 116);
+            text-decoration: none;
+            font-size: 2em;
+            margin: 0 15px;
+            padding: 10px;
+        }
+        .navbar a:hover {
+            color: rgb(3, 3, 3);
+            background-color: rgb(50, 50, 50);
+        }
+        hr {
+    border: 0; 
+    border-top: 1px solid rgb(116, 116, 116);
+    margin: 20px 0;
+    width: 80%;
+    max-width: 800px; 
+    background-color: rgb(116, 116, 116);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TᕼIᑎᘜՏTOՏᗩY</h1>
+        <br> <hr>
+        <div class="posts">
+            <div href="/post1" class="post">
+                <h2 class="post-title">Post Title or the Poster Name</h2>
+                <p class="post-content">The post information goes here. This post is larger and centered in the middle of the page.</p>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="index.html">Posts</a>
+        <a href="add.html">Create</a>
+    </div>
+</body>
+</html>
